@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BalmisBoardGamesApplication {
 	
-	@GetMapping("/hello")
+	@GetMapping("/helloworld")
 	public String helloworld() {
 		return "hello world";
 	}
